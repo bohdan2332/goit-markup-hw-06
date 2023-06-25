@@ -1268,7 +1268,7 @@ border-radius: 4px;
 
 }
 
-.modal-check-input:checked + .modal-check-text span {
+.modal-check-input:checked + .modal-check-text>.modal-check-box  {
 
     background-color: #404bbf;
     border: none;
@@ -1283,7 +1283,7 @@ border-radius: 4px;
 
 }
 
-.modal-check-text span {
+.modal-check-box {
     width: 16px;
     height: 16px;
     border: 1px solid rgba(46, 47, 66, 0.4);
