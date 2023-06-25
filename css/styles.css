@@ -1263,9 +1263,16 @@ border-radius: 4px;
     margin-bottom: 24px;
 }
 
-.modal-check {
+.modal-check-input {
 
 
+}
+
+.modal-check-input:checked + .modal-check-text span {
+
+    background-color: #404bbf;
+    border: none;
+    fill: #F4F4FD;
 }
 
 .modal-check-text {
@@ -1276,7 +1283,7 @@ border-radius: 4px;
 
 }
 
-.modal-check-accept {
+.modal-check-text span {
     width: 16px;
     height: 16px;
     border: 1px solid rgba(46, 47, 66, 0.4);
@@ -1286,8 +1293,8 @@ border-radius: 4px;
     align-items: center; 
     justify-content: center;
     fill: transparent;
+    margin-right: 8px;
     
-
 }
 
 .modal-check-link {
@@ -1315,4 +1322,17 @@ border-radius: 4px;
     margin-right: auto;
     margin-top: 24px;
     margin-bottom: 24px;
+    transition-duration: 250ms;
+}
+
+
+
+.modal-send-btn:hover{
+
+    background-color: #404BBF
+}
+
+.modal-send-btn:focus{
+
+    background-color: #404BBF
 }
