@@ -1289,3 +1289,8 @@ border-radius: 4px;
     fill: transparent;
 
 }
+
+
+.modal-check-text:checked + .modal-check-accept{
+    background-color:  #404bbf;
+}
