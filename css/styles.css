@@ -1287,10 +1287,37 @@ border-radius: 4px;
     align-items: center;
     justify-content: center;
     fill: transparent;
+    margin-right: 8px;
 
 }
 
 
 .modal-check:checked + .modal-check-accept{
     background-color:  #404bbf;
+    border: none; 
+    fill: #F4F4FD;
+}
+
+
+.modal-check-link {
+    color: #4d5ae5;;
+}
+
+.modal-send-btn {
+    display: block;
+    min-width: 169px;
+    height: 56px ;
+    font-family: "Roboto", sans-serif;
+    border-radius: 4px;
+    background: var(--iris, #4D5AE5);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    cursor: pointer;
+    border: none;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
 }
