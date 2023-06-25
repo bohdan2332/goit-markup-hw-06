@@ -1292,7 +1292,7 @@ border-radius: 4px;
 }
 
 
-.modal-check:checked + .modal-check-accept{
+.modal-check:checked + .modal-check-accept {
     background-color:  #404bbf;
     border: none; 
     fill: #F4F4FD;
@@ -1300,7 +1300,8 @@ border-radius: 4px;
 
 
 .modal-check-link {
-    color: #4d5ae5;;
+    color: #4d5ae5;
+    margin-left: 4px;
 }
 
 .modal-send-btn {
@@ -1319,5 +1320,8 @@ border-radius: 4px;
     cursor: pointer;
     border: none;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 24px;
+    margin-bottom: 24px;
 }
